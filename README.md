@@ -10,3 +10,5 @@
 <p>
     Have fun with this!  Feel free to suggest changes or modifications.  
 </p>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bf9e8527-b96d-4d7c-95ab-556a4475370c/deploy-status)](https://app.netlify.com/sites/midnightmoetstodolist/deploys)
