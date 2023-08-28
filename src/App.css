@@ -13,18 +13,19 @@
       orchid 100%
     );
   }
-  .todo-app {
+
+.todo-app {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 520px;
+    max-width: 520px;
+    width: 100%;
     min-height: 600px;
     background: purple;
     text-align: center;
     margin: 128px auto;
     border-radius: 15px;
-    padding-bottom: 32px;
-  }
+}
   
   h1 {
     margin: 32px 0;
@@ -39,6 +40,10 @@
   
   .todo-form {
     margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
   
   .todo-input {
@@ -46,7 +51,8 @@
     border-radius: 10px;
     border: 2px solid gray;
     outline: none;
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
     background: transparent;
     color: #fff;
   }
@@ -145,3 +151,9 @@
   .edit-icon {
     color: black;
   }
+
+/* Media querry */
+@media screen and (max-width:550px) {
+    #root {
+        padding: 10px;
+}
